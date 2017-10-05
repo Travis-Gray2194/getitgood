@@ -16,12 +16,15 @@ public class getitgood {
         System.out.println("Type a number");
         counter = keyboard.nextInt();
 
-            if (counter % 10 == 0 && counter % 5 == 0 && counter % 3 == 0){
+        if (counter % 10 == 0 && counter % 5 == 0 && counter % 3 == 0){
                 System.out.print( " Get it" + " Got it" + " Good");}
 
-           if  (counter % 5 == 0){ System.out.print(" Got it");}
-           if(counter % 10 == 0) {System.out.print(" Good");}
-           if (counter% 3==0){System.out.print(" Get it");}
+        if  (counter % 5 == 0){ System.out.print(" Got it");}
+        if(counter % 10 == 0) {System.out.print(" Good");}
+        if (counter% 3==0){System.out.print(" Get it");}
+
+        if (counter % 10 != 0 && counter % 5 != 0 && counter % 3 != 0){
+            System.out.print( +counter);}
 
     }
 }
